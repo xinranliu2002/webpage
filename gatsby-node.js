@@ -6,6 +6,7 @@
 
 const path = require('path');
 const _ = require('lodash');
+emitter.setMaxListeners(11);
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
